@@ -75,7 +75,7 @@ const App = () => {
               </div>
             </div>
             <div className="flex-grow flex items-center max-w-60 text-sm">
-              <div className="w-full bg-[#00ff00] py-4 rounded-2xl flex justify-around">
+              <div className="w-full bg-[#fad258] py-4 rounded-2xl flex justify-around">
                 <button className="flex flex-col items-center gap-1">
                   <img src={bear} width={24} height={24} alt="High Voltage" />
                   <span>Frens</span>
@@ -93,7 +93,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="w-full bg-[#f9c035] rounded-full mt-4">
+          <div className="w-full bg-[#00ff00] rounded-full mt-4">
             <div className="bg-gradient-to-r from-[#f3c45a] to-[#fffad0] h-4 rounded-full" style={{ width: `${(energy / 6500) * 100}%` }}></div>
           </div>
         </div>
